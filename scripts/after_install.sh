@@ -12,6 +12,4 @@ sudo apt-get update
 sudo apt-get -y install docker-ce docker-ce-cli containerd.io
 
 # make data folder for Redis
-cd /home
-mkdir docker && cd docker
-mkdir data
+mkdir -p /home/docker/data
