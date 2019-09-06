@@ -10,3 +10,8 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 # install Docker Engine - Community
 sudo apt-get update
 sudo apt-get -y install docker-ce docker-ce-cli containerd.io
+
+# make data folder for Redis
+cd /home
+mkdir docker && cd docker
+mkdir data
